@@ -16,13 +16,13 @@ const config = {
   url: 'https://iot-ontario.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/iot-ontario',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'iot-ontario', // Usually your GitHub org/user name.
   projectName: 'iot-ontario.github.io', // Usually your repo name.
-
+  deploymentBranch:'site',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -33,6 +33,8 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+
 
   presets: [
     [
@@ -139,6 +141,7 @@ const config = {
 };
 
 export default config;
+
 // export default {
 //   // ...
 //   url: 'https://iot-ontario.github.io', // Your website URL

@@ -13,15 +13,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://iot-ontario.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'iot-ontario', // Usually your GitHub org/user name.
+  projectName: 'iot-ontario', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -138,4 +138,13 @@ const config = {
     }),
 };
 
-export default config;
+// export default config;
+export default {
+  // ...
+  url: 'https://iot-ontario.github.io', // Your website URL
+  baseUrl: '/',
+  projectName: 'iot-ontario.github.io',
+  organizationName: 'iot-ontario',
+  trailingSlash: false,
+  // ...
+};

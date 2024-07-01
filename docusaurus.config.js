@@ -21,7 +21,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'iot-ontario', // Usually your GitHub org/user name.
-  projectName: 'iot-ontario', // Usually your repo name.
+  projectName: 'iot-ontario.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -138,13 +138,13 @@ const config = {
     }),
 };
 
-// export default config;
-export default {
-  // ...
-  url: 'https://iot-ontario.github.io', // Your website URL
-  baseUrl: '/',
-  projectName: 'iot-ontario.github.io',
-  organizationName: 'iot-ontario',
-  trailingSlash: false,
-  // ...
-};
+export default config;
+// export default {
+//   // ...
+//   url: 'https://iot-ontario.github.io', // Your website URL
+//   baseUrl: '/',
+//   projectName: 'iot-ontario.github.io',
+//   organizationName: 'iot-ontario',
+//   trailingSlash: false,
+//   // ...
+// };

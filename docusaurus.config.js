@@ -8,12 +8,17 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'IoT Research Lab',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://iot-ontario.github.io',
+
+  customFields: {
+    // Put your custom environment here
+    teamEmail: process.env.EMAIL,
+  },
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/iot-ontario',
@@ -21,11 +26,11 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'iot-ontario', // Usually your GitHub org/user name.
-  projectName: 'iot-ontario.github.io', // Usually your repo name.
+  projectName: 'iot-ontario', // Usually your repo name.
   deploymentBranch:'site',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
+  trailingSlash: false,
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
